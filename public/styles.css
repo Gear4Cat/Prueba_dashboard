@@ -1,0 +1,110 @@
+body{
+    width: 100%;
+    margin: auto;
+    font-family: Montserrat, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    background: #1E1E2E;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.card{
+    width: 70%;
+    margin: 20px;
+    padding: 10px;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: justify;
+}
+
+article{
+    margin-bottom: 20px;
+    background-color: #0F172A;
+    padding: 20px;
+}
+
+.card h2{
+    margin: 5px;
+    font-weight: bold;
+}
+
+aside{
+    width: 30%;
+    margin: 30px;
+    padding: 10px;
+    color: aliceblue;
+    background-color: #0F172A;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: justify;
+    max-height: 400px;
+}
+
+aside h2{
+    margin: 5px;
+    font-weight: bold;
+}
+
+/*Esta parte del css corresponde a todo lo relacionado con el header */
+
+header{
+    width: 100%;
+}
+
+h1 {
+    display: flex;
+    justify-content: left;
+    padding: 2%;
+    margin: auto;
+    font-weight: normal;
+    font-size: 40px;
+    background-color: #27293D;
+    color: aliceblue;
+}
+
+nav {
+    border-top: 2px solid;
+    border-color: #334155;
+    background-color: #0F172A;
+    padding: 15px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+}
+
+nav li{
+    font-size: 25px;
+    margin: auto;
+}
+
+nav li a{
+    color: aliceblue;
+    padding: 10px 30px 10px 30px;
+    transition: all 0.1s ease;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    background-color: #27293D;
+    border-radius: 5px;
+}
+
+footer{
+    color: aliceblue;
+    text-align: center;
+    border-top: 2px solid;
+    border-color: #334155;
+    background-color: #0F172A;
+    max-height: 200px;
+}

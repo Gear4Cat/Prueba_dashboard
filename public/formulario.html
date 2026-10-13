@@ -1,0 +1,62 @@
+<article>
+    <h2>Únete al equipo de CATWARE</h2>
+    <p>Por favor llena tus datos para postular:</p>
+    
+    <form style="display: flex; flex-direction: column; gap: 10px; margin-top: 15px;">
+    
+        <label for="nombre">Nombre completo:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ej. Carlos Pérez" required>
+
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad" min="18" max="99" placeholder="Ej. 22" required>
+
+        <label for="numero">Numero de celular</label>
+        <input type="tel" id="numero" name="numero" min="0" placeholder="Ej. 65232004" required>
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" placeholder="correo@ejemplo.com" required>
+
+
+        <label for="formacion">Grado de formación académica:</label>
+        <select id="formacion" name="formacion" required>
+            <option value="" disabled selected>Selecciona una opción</option>
+            <option value="Autodidacta">Autodidacta</option>
+            <option value="Estudiante Universitario">Estudiante Universitario</option>
+            <option value="Licenciatura/Ingeniería">Licenciatura / Ingeniería</option>
+            <option value="Postgrado/Maestría">Postgrado / Maestría</option>
+        </select>
+
+        <label for="puesto">Puesto de interés:</label>
+        <select id="puesto" name="puesto">
+            <option value="Frontend">Desarrollador Web Frontend</option>
+            <option value="Backend">Desarrollador Backend</option>
+            <option value="Diseno UI/UX">Diseñador UI/UX</option>
+        </select>
+
+        <label for="nivel_js">Nivel en JavaScript:</label>
+        <select id="nivel_js" name="nivel_js">
+            <option value="ninguno">Sin experiencia</option>
+            <option value="basico">Básico</option>
+            <option value="intermedio">Intermedio</option>
+            <option value="avanzado">Avanzado</option>
+        </select>
+
+        <label for="nivel_ts">Nivel en TypeScript:</label>
+        <select id="nivel_ts" name="nivel_ts">
+            <option value="ninguno">Sin experiencia</option>
+            <option value="basico">Básico</option>
+            <option value="intermedio">Intermedio</option>
+            <option value="avanzado">Avanzado</option>
+        </select>
+
+        <label for="anios">Años de experiencia</label>
+        <input type="number" id="anios" name="anios" min="0" placeholder="Ej. 10" required>
+
+        <label for="experiencia">Proyectos destacados o experiencia previa:</label>
+        <textarea id="experiencia" name="experiencia" rows="4" placeholder="Cuéntanos brevemente sobre tus proyectos o tecnologías con las que has trabajado..."></textarea>
+
+        <button type="submit" style="padding: 10px; margin-top: 10px; cursor: pointer;">
+            Enviar postulación
+        </button>
+    </form>
+</article>
